@@ -7,12 +7,28 @@ export default function CTA() {
           <p className="text-lg text-gray-700 mb-8">
             Be part of the community that's combining Pokemon culture with cryptocurrency innovation.
           </p>
-          <div className="flex flex-wrap justify-center gap-4">
-            <button className="bg-primary text-white px-8 py-3 rounded-full font-heading font-bold hover:bg-opacity-90 transition-colors duration-300 shadow-lg">
-              Buy $POKEAI
-            </button>
-            <a href="#" className="bg-white text-primary px-8 py-3 rounded-full font-heading font-bold border-2 border-primary hover:bg-primary hover:text-white transition-colors duration-300">
-              Join Community
+          <div className="max-w-xl mx-auto bg-white p-6 rounded-xl shadow-lg border-2 border-primary mb-8">
+            <div className="flex items-center gap-4 mb-4">
+              <div className="w-12 h-12 rounded-full bg-violet-100 flex items-center justify-center flex-shrink-0">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="#8B5CF6" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                  <path d="M12 16V12" stroke="#8B5CF6" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                  <path d="M12 8H12.01" stroke="#8B5CF6" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </div>
+              <h3 className="font-heading font-bold text-lg text-primary">$POKEAI Launch Coming Soon!</h3>
+            </div>
+            <p className="text-gray-700 mb-4 text-left">
+              Get ready for the launch! Here's how to purchase $POKEAI tokens:
+            </p>
+            <ol className="list-decimal pl-5 space-y-2 text-gray-700 text-left mb-4">
+              <li>Set up a <a href="https://phantom.app/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Phantom wallet</a></li>
+              <li>Load your wallet with $SOL</li> 
+              <li>Visit our exchange when we launch</li>
+              <li>Connect your wallet and swap $SOL for $POKEAI</li>
+            </ol>
+            <a href="#" className="bg-primary text-white px-8 py-3 rounded-full font-heading font-bold hover:bg-opacity-90 transition-colors duration-300 inline-block">
+              Join Community for Updates
             </a>
           </div>
           

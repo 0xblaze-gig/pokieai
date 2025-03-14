@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
-import Stats from "@/components/Stats";
+// Stats component removed as token is not launched yet
 import About from "@/components/About";
 import Album from "@/components/Album";
 import Tokenomics from "@/components/Tokenomics";
@@ -39,7 +39,7 @@ export default function Home() {
     <div className="bg-neutral font-body text-dark">
       <Navbar />
       <Hero />
-      <Stats />
+      {/* Stats component removed as token is not launched yet */}
       <About />
       <Album />
       <Tokenomics />

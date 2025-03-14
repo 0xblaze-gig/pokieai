@@ -11,12 +11,17 @@ export default function Hero() {
               $POKEAI combines the beloved world of Pokemon with cutting-edge AI technology to create a revolutionary cryptocurrency experience.
             </p>
             <div className="flex flex-wrap gap-4">
-              <button className="bg-primary text-white px-8 py-3 rounded-full font-heading font-bold hover:bg-opacity-90 transition-colors duration-300 shadow-lg">
-                Buy $POKEAI
-              </button>
-              <button className="border-2 border-primary text-primary px-8 py-3 rounded-full font-heading font-bold hover:bg-primary hover:text-white transition-colors duration-300">
-                Learn More
-              </button>
+              <div className="bg-white p-6 rounded-lg shadow-lg border-2 border-primary">
+                <h3 className="font-heading font-bold text-lg mb-2 text-primary">Coming Soon on Solana!</h3>
+                <p className="text-gray-700 mb-4">
+                  To purchase $POKEAI when it launches:
+                </p>
+                <ol className="list-decimal pl-5 space-y-2 text-gray-700">
+                  <li>Load your Phantom wallet with $SOL</li>
+                  <li>Visit our exchange when we launch</li>
+                  <li>Swap your $SOL for $POKEAI tokens</li>
+                </ol>
+              </div>
             </div>
             <div className="flex items-center space-x-6 mt-8">
               <a href="#" className="text-gray-700 hover:text-primary transition-colors duration-300">
