@@ -1,17 +1,17 @@
 export default function Tokenomics() {
   const tokenDistribution = [
-    { name: "Circulating Supply", percentage: 40, color: "bg-primary" },
-    { name: "Development", percentage: 25, color: "bg-[#3498DB]" },
-    { name: "Marketing", percentage: 20, color: "bg-[#F39C12]" },
-    { name: "Community Rewards", percentage: 15, color: "bg-[#62DE64]" }
+    { name: "Circulating Supply", percentage: 90, color: "bg-primary" },
+    { name: "Development", percentage: 5, color: "bg-[#3498DB]" },
+    { name: "Marketing", percentage: 3, color: "bg-[#F39C12]" },
+    { name: "Community Rewards", percentage: 2, color: "bg-[#62DE64]" }
   ];
 
   const tokenDetails = [
     { label: "Token Name:", value: "POKEAI" },
     { label: "Token Symbol:", value: "$POKEAI" },
     { label: "Total Supply:", value: "1,000,000,000" },
-    { label: "Network:", value: "Ethereum (ERC-20)" },
-    { label: "Taxation:", value: "2% Buy, 2% Sell" }
+    { label: "Network:", value: "Solana (SPL)" },
+    { label: "Taxation:", value: "0% (No Tax)" }
   ];
 
   return (
@@ -33,27 +33,27 @@ export default function Tokenomics() {
                 {/* Create pie chart segments */}
                 <circle cx="50" cy="50" r="45" fill="white" />
                 
-                {/* Circulating Supply - 40% */}
+                {/* Circulating Supply - 90% */}
                 <path 
-                  d="M50,50 L95,50 A45,45 0 0,1 66.8,89.6 Z" 
+                  d="M50,50 L95,50 A45,45 0 0,1 50,95 A45,45 0 0,1 5,50 A45,45 0 0,1 23,15 Z" 
                   fill="#FF5A5F" 
                 />
                 
-                {/* Development - 25% */}
+                {/* Development - 5% */}
                 <path 
-                  d="M50,50 L66.8,89.6 A45,45 0 0,1 15.4,79.9 Z" 
+                  d="M50,50 L23,15 A45,45 0 0,1 41,9 Z" 
                   fill="#3498DB" 
                 />
                 
-                {/* Marketing - 20% */}
+                {/* Marketing - 3% */}
                 <path 
-                  d="M50,50 L15.4,79.9 A45,45 0 0,1 5.6,28.5 Z" 
+                  d="M50,50 L41,9 A45,45 0 0,1 54,7 Z" 
                   fill="#F39C12" 
                 />
                 
-                {/* Community Rewards - 15% */}
+                {/* Community Rewards - 2% */}
                 <path 
-                  d="M50,50 L5.6,28.5 A45,45 0 0,1 95,50 Z" 
+                  d="M50,50 L54,7 A45,45 0 0,1 95,50 Z" 
                   fill="#62DE64" 
                 />
                 

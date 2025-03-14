@@ -15,9 +15,24 @@ function Router() {
   );
 }
 
+function AnimatedBackground() {
+  return (
+    <div className="animated-bg">
+      <div className="bubbles">
+        <div className="bubble"></div>
+        <div className="bubble"></div>
+        <div className="bubble"></div>
+        <div className="bubble"></div>
+        <div className="bubble"></div>
+      </div>
+    </div>
+  );
+}
+
 function App() {
   return (
     <QueryClientProvider client={queryClient}>
+      <AnimatedBackground />
       <Router />
       <Toaster />
     </QueryClientProvider>
