@@ -17,7 +17,7 @@ function Router() {
 
 function AnimatedBackground() {
   return (
-    <div className="animated-bg">
+    <div className="animated-bg-dark">
       <div className="bubbles">
         <div className="bubble"></div>
         <div className="bubble"></div>
@@ -25,6 +25,9 @@ function AnimatedBackground() {
         <div className="bubble"></div>
         <div className="bubble"></div>
       </div>
+      <div className="pokeball-bg-1"></div>
+      <div className="pokeball-bg-2"></div>
+      <div className="pokeball-bg-3"></div>
     </div>
   );
 }

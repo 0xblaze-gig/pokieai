@@ -1,49 +1,82 @@
+import { Info, Bell, Twitter, Send, MessageCircle, BookOpen } from "lucide-react";
+
 export default function CTA() {
   return (
-    <section className="py-16 bg-primary bg-opacity-10">
-      <div className="container mx-auto px-4">
+    <section className="py-20 bg-gray-900 relative overflow-hidden">
+      {/* Background decorations */}
+      <div className="absolute top-0 left-0 w-full h-full overflow-hidden opacity-20">
+        <div className="w-[800px] h-[800px] absolute -top-[400px] -right-[400px] rounded-full bg-gradient-to-b from-primary to-purple-700 opacity-20 blur-3xl"></div>
+        <div className="w-[600px] h-[600px] absolute -bottom-[300px] -left-[300px] rounded-full bg-gradient-to-t from-indigo-700 to-purple-700 opacity-20 blur-3xl"></div>
+      </div>
+      
+      <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="font-heading font-bold text-3xl md:text-4xl mb-6">Join the $POKEAI Revolution</h2>
-          <p className="text-lg text-gray-700 mb-8">
-            Be part of the community that's combining Pokemon culture with cryptocurrency innovation.
+          <h2 className="font-heading font-bold text-3xl md:text-5xl mb-6 bg-gradient-to-r from-primary to-purple-500 bg-clip-text text-transparent">Join the $POKEAI Revolution</h2>
+          <p className="text-lg text-gray-300 mb-12">
+            Be part of the community that's combining Pokemon culture with cryptocurrency innovation on the Solana blockchain.
           </p>
-          <div className="max-w-xl mx-auto bg-white p-6 rounded-xl shadow-lg border-2 border-primary mb-8">
-            <div className="flex items-center gap-4 mb-4">
-              <div className="w-12 h-12 rounded-full bg-violet-100 flex items-center justify-center flex-shrink-0">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="#8B5CF6" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                  <path d="M12 16V12" stroke="#8B5CF6" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                  <path d="M12 8H12.01" stroke="#8B5CF6" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                </svg>
+          
+          <div className="max-w-xl mx-auto bg-gray-800 p-8 rounded-xl shadow-lg border border-gray-700 backdrop-filter backdrop-blur-sm bg-opacity-80 mb-12 transform transition-all duration-500 hover:-translate-y-1 hover:shadow-2xl">
+            <div className="flex items-center gap-4 mb-6">
+              <div className="w-14 h-14 rounded-full bg-gradient-to-r from-primary to-purple-600 flex items-center justify-center flex-shrink-0 shadow-lg">
+                <Bell className="w-7 h-7 text-white" />
               </div>
-              <h3 className="font-heading font-bold text-lg text-primary">$POKEAI Launch Coming Soon!</h3>
+              <h3 className="font-heading font-bold text-xl text-white">Get Notified at Launch</h3>
             </div>
-            <p className="text-gray-700 mb-4 text-left">
-              Get ready for the launch! Here's how to purchase $POKEAI tokens:
-            </p>
-            <ol className="list-decimal pl-5 space-y-2 text-gray-700 text-left mb-4">
-              <li>Set up a <a href="https://phantom.app/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Phantom wallet</a></li>
-              <li>Load your wallet with $SOL</li> 
-              <li>Visit our exchange when we launch</li>
-              <li>Connect your wallet and swap $SOL for $POKEAI</li>
-            </ol>
-            <a href="#" className="bg-primary text-white px-8 py-3 rounded-full font-heading font-bold hover:bg-opacity-90 transition-colors duration-300 inline-block">
-              Join Community for Updates
-            </a>
+            
+            <div className="space-y-6 mb-8">
+              <div className="flex items-start gap-3 text-left">
+                <div className="w-8 h-8 rounded-full bg-primary bg-opacity-20 flex items-center justify-center flex-shrink-0 mt-1">
+                  <span className="text-primary font-bold">1</span>
+                </div>
+                <div>
+                  <h4 className="text-white font-medium mb-1">Join our community channels</h4>
+                  <p className="text-gray-400">Stay updated with the latest announcements and development progress</p>
+                </div>
+              </div>
+              
+              <div className="flex items-start gap-3 text-left">
+                <div className="w-8 h-8 rounded-full bg-primary bg-opacity-20 flex items-center justify-center flex-shrink-0 mt-1">
+                  <span className="text-primary font-bold">2</span>
+                </div>
+                <div>
+                  <h4 className="text-white font-medium mb-1">Set up a <a href="https://phantom.app/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Phantom wallet</a></h4>
+                  <p className="text-gray-400">Prepare by creating your Solana wallet before our token launch</p>
+                </div>
+              </div>
+              
+              <div className="flex items-start gap-3 text-left">
+                <div className="w-8 h-8 rounded-full bg-primary bg-opacity-20 flex items-center justify-center flex-shrink-0 mt-1">
+                  <span className="text-primary font-bold">3</span>
+                </div>
+                <div>
+                  <h4 className="text-white font-medium mb-1">Subscribe to launch notifications</h4>
+                  <p className="text-gray-400">Be the first to know when $POKEAI goes live on Solana</p>
+                </div>
+              </div>
+            </div>
+            
+            <div className="flex items-center justify-center">
+              <a href="#" className="relative overflow-hidden group bg-gradient-to-r from-primary to-purple-600 px-8 py-4 rounded-full font-heading font-bold text-white hover:shadow-lg transform transition-all duration-300 hover:-translate-y-1">
+                <span className="relative z-10">Join Our Community</span>
+                <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-purple-600 to-primary opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div className="absolute -top-1 -right-1 w-3 h-3 rounded-full bg-white animate-ping"></div>
+              </a>
+            </div>
           </div>
           
           <div className="flex justify-center items-center space-x-8 mt-10">
-            <a href="#" className="text-primary hover:text-primary-dark transition-colors duration-300">
-              <i className="fab fa-twitter text-3xl"></i>
+            <a href="#" className="text-gray-400 hover:text-primary transition-all duration-300 transform hover:scale-110">
+              <Twitter className="w-8 h-8" strokeWidth={1.5} />
             </a>
-            <a href="#" className="text-primary hover:text-primary-dark transition-colors duration-300">
-              <i className="fab fa-telegram text-3xl"></i>
+            <a href="#" className="text-gray-400 hover:text-primary transition-all duration-300 transform hover:scale-110">
+              <Send className="w-8 h-8" strokeWidth={1.5} />
             </a>
-            <a href="#" className="text-primary hover:text-primary-dark transition-colors duration-300">
-              <i className="fab fa-discord text-3xl"></i>
+            <a href="#" className="text-gray-400 hover:text-primary transition-all duration-300 transform hover:scale-110">
+              <MessageCircle className="w-8 h-8" strokeWidth={1.5} />
             </a>
-            <a href="#" className="text-primary hover:text-primary-dark transition-colors duration-300">
-              <i className="fab fa-medium text-3xl"></i>
+            <a href="#" className="text-gray-400 hover:text-primary transition-all duration-300 transform hover:scale-110">
+              <BookOpen className="w-8 h-8" strokeWidth={1.5} />
             </a>
           </div>
         </div>
