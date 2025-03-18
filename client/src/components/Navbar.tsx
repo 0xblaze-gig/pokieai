@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Menu, X, Home, Info, Image, PieChart, Map, Bell } from "lucide-react";
+import { Menu, X, Home, Info, Image, PieChart, Map, Twitter } from "lucide-react";
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -71,7 +71,7 @@ export default function Navbar() {
           <NavLink href="#roadmap" icon={<Map size={16} />} label="Roadmap" />
           
           <div className="ml-4">
-            <NotificationButton />
+            <TwitterLink />
           </div>
         </div>
       </div>
@@ -89,12 +89,15 @@ export default function Navbar() {
           <MobileNavLink href="#roadmap" icon={<Map size={18} />} label="Roadmap" onClick={closeMenu} />
           
           <div className="pt-3 mt-1 border-t border-gray-800">
-            <button 
+            <a 
+              href="https://x.com/@PokeAionSOL"
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-full flex items-center justify-center py-2 px-4 bg-gradient-to-r from-primary to-purple-600 text-white rounded-lg space-x-2 font-medium hover:shadow-lg transition-all duration-300"
             >
-              <Bell size={18} />
-              <span>Get Notified at Launch</span>
-            </button>
+              <Twitter size={18} />
+              <span>Follow on Twitter</span>
+            </a>
           </div>
         </div>
       </div>
@@ -128,14 +131,17 @@ function MobileNavLink({ href, icon, label, onClick }: { href: string; icon: Rea
   );
 }
 
-function NotificationButton() {
+function TwitterLink() {
   return (
-    <button 
+    <a 
+      href="https://x.com/@PokeAionSOL"
+      target="_blank"
+      rel="noopener noreferrer"
       className="relative group overflow-hidden py-2 px-4 bg-gray-800 hover:bg-gray-700 border border-gray-700 text-white rounded-lg flex items-center space-x-2 transition-all duration-300"
     >
-      <Bell size={16} className="text-primary" />
-      <span className="font-medium">Launch Alerts</span>
+      <Twitter size={16} className="text-primary" />
+      <span className="font-medium">Follow on X</span>
       <span className="absolute -top-1 -right-1 w-2 h-2 rounded-full bg-primary animate-ping"></span>
-    </button>
+    </a>
   );
 }

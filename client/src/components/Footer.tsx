@@ -41,18 +41,10 @@ export default function Footer() {
             <p className="text-gray-300 mb-6">
               The revolutionary cryptocurrency merging Pokemon culture with cutting-edge AI technology on the Solana blockchain.
             </p>
-            <div className="flex space-x-5">
-              <a href="#" className="text-gray-400 hover:text-primary transition-all duration-300 transform hover:scale-110">
-                <Twitter size={20} strokeWidth={1.5} />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-primary transition-all duration-300 transform hover:scale-110">
-                <Send size={20} strokeWidth={1.5} />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-primary transition-all duration-300 transform hover:scale-110">
-                <MessageCircle size={20} strokeWidth={1.5} />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-primary transition-all duration-300 transform hover:scale-110">
-                <BookOpen size={20} strokeWidth={1.5} />
+            <div className="flex">
+              <a href="https://x.com/@PokeAionSOL" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-primary transition-all duration-300 transform hover:scale-110 flex items-center gap-2 px-4 py-2 bg-gray-800 rounded-full border border-gray-700">
+                <Twitter size={18} strokeWidth={1.5} />
+                <span>@PokeAionSOL</span>
               </a>
             </div>
           </div>

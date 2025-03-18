@@ -65,18 +65,11 @@ export default function CTA() {
             </div>
           </div>
           
-          <div className="flex justify-center items-center space-x-8 mt-10">
-            <a href="#" className="text-gray-400 hover:text-primary transition-all duration-300 transform hover:scale-110">
-              <Twitter className="w-8 h-8" strokeWidth={1.5} />
-            </a>
-            <a href="#" className="text-gray-400 hover:text-primary transition-all duration-300 transform hover:scale-110">
-              <Send className="w-8 h-8" strokeWidth={1.5} />
-            </a>
-            <a href="#" className="text-gray-400 hover:text-primary transition-all duration-300 transform hover:scale-110">
-              <MessageCircle className="w-8 h-8" strokeWidth={1.5} />
-            </a>
-            <a href="#" className="text-gray-400 hover:text-primary transition-all duration-300 transform hover:scale-110">
-              <BookOpen className="w-8 h-8" strokeWidth={1.5} />
+          <div className="flex justify-center items-center mt-10">
+            <a href="https://x.com/@PokeAionSOL" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 px-6 py-3 bg-gray-800 rounded-full border border-gray-700 text-white hover:bg-gray-700 transition-all duration-300 transform hover:scale-105 hover:shadow-lg group">
+              <Twitter className="w-6 h-6 text-primary" strokeWidth={1.5} />
+              <span className="font-medium">Follow on Twitter</span>
+              <span className="w-2 h-2 bg-primary rounded-full animate-pulse"></span>
             </a>
           </div>
         </div>

@@ -83,12 +83,12 @@ export default function Tokenomics() {
             </div>
             
             <div className="mt-8 p-6 bg-white rounded-lg shadow-md border border-gray-100">
-              <h3 className="font-heading font-bold text-xl mb-4">Token Details</h3>
+              <h3 className="text-black font-heading font-bold text-xl mb-4">Token Details</h3>
               <div className="space-y-3">
                 {tokenDetails.map((detail, index) => (
                   <div key={index} className="flex justify-between">
                     <span className="text-gray-600">{detail.label}</span>
-                    <span className="font-medium">{detail.value}</span>
+                    <span className="font-medium text-black">{detail.value}</span>
                   </div>
                 ))}
               </div>

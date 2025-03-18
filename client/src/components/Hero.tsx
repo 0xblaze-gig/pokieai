@@ -29,18 +29,10 @@ export default function Hero() {
                 </ol>
               </div>
             </div>
-            <div className="flex items-center space-x-6 mt-8">
-              <a href="#" className="text-gray-400 hover:text-primary transition-colors duration-300 transform hover:scale-110">
-                <Twitter strokeWidth={1.5} className="w-6 h-6" />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-primary transition-colors duration-300 transform hover:scale-110">
-                <Send strokeWidth={1.5} className="w-6 h-6" />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-primary transition-colors duration-300 transform hover:scale-110">
-                <MessageCircle strokeWidth={1.5} className="w-6 h-6" />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-primary transition-colors duration-300 transform hover:scale-110">
-                <BookOpen strokeWidth={1.5} className="w-6 h-6" />
+            <div className="flex items-center mt-8">
+              <a href="https://x.com/@PokeAionSOL" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-primary transition-colors duration-300 transform hover:scale-110 flex items-center gap-2 px-4 py-2 bg-gray-800 rounded-full border border-gray-700">
+                <Twitter strokeWidth={1.5} className="w-5 h-5" />
+                <span>Follow on X</span>
               </a>
             </div>
           </div>
