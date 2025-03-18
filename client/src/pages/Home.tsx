@@ -36,7 +36,16 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="bg-neutral font-body text-dark">
+    <div className="bg-gray-900 font-body text-gray-100">
+      <div className="animated-bg-dark">
+        <div className="bubbles">
+          <div className="bubble"></div>
+          <div className="bubble"></div>
+          <div className="bubble"></div>
+          <div className="bubble"></div>
+          <div className="bubble"></div>
+        </div>
+      </div>
       <Navbar />
       <Hero />
       {/* Stats component removed as token is not launched yet */}

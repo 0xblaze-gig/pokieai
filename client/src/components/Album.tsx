@@ -103,14 +103,12 @@ export default function Album() {
         </div>
         
         <div className="text-center mt-12">
-          <button className="relative bg-primary text-white px-10 py-4 rounded-full font-heading font-bold hover:bg-opacity-90 transition-all duration-300 shadow-lg group overflow-hidden">
-            <span className="relative z-10">Catch More Pokémon</span>
-            <div className="absolute inset-0 bg-gradient-to-r from-primary via-violet-500 to-primary bg-[length:200%_100%] animate-gradient"></div>
-            <div className="absolute -top-1 -left-1 w-6 h-6 rounded-full bg-white border-2 border-primary opacity-0 group-hover:opacity-100 transition-opacity duration-300" style={{boxShadow: '0 0 10px rgba(255,90,95,0.5)'}}>
-              <div className="absolute top-1/2 left-0 right-0 h-0.5 bg-primary transform -translate-y-1/2"></div>
-              <div className="absolute w-2 h-2 top-1/2 left-1/2 rounded-full bg-white border border-primary transform -translate-x-1/2 -translate-y-1/2"></div>
-            </div>
-          </button>
+          <div className="relative inline-block px-10 py-4 rounded-full font-heading font-bold text-white bg-gradient-to-r from-purple-700 via-primary to-purple-700 bg-[length:200%_100%] animate-gradient shadow-lg overflow-hidden">
+            <span className="relative z-10">Coming Soon</span>
+            <div className="absolute inset-0 bg-black bg-opacity-20"></div>
+            <div className="absolute -top-12 -left-12 w-24 h-24 bg-white opacity-5 rounded-full transform rotate-45"></div>
+            <div className="absolute -bottom-12 -right-12 w-24 h-24 bg-white opacity-5 rounded-full transform rotate-45"></div>
+          </div>
         </div>
       </div>
       
