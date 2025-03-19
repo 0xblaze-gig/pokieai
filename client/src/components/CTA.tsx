@@ -11,7 +11,7 @@ export default function CTA() {
       
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="font-heading font-bold text-3xl md:text-5xl mb-6 bg-gradient-to-r from-primary to-purple-500 bg-clip-text text-transparent">Join the $POKEAI Revolution</h2>
+          <h2 className="font-heading font-bold text-3xl md:text-5xl mb-6 bg-gradient-to-r from-primary to-purple-500 bg-clip-text text-transparent">Join the POKIEAI Revolution</h2>
           <p className="text-lg text-gray-300 mb-12">
             Be part of the community that's combining Pokemon culture with cryptocurrency innovation on the Solana blockchain.
           </p>
@@ -40,7 +40,7 @@ export default function CTA() {
                   <span className="text-primary font-bold">2</span>
                 </div>
                 <div>
-                  <h4 className="text-white font-medium mb-1">Set up a <a href="https://phantom.app/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Phantom wallet</a></h4>
+                  <h4 className="text-white font-medium mb-1">Set up a <a href="" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Phantom wallet</a></h4>
                   <p className="text-gray-400">Prepare by creating your Solana wallet before our token launch</p>
                 </div>
               </div>
@@ -51,7 +51,7 @@ export default function CTA() {
                 </div>
                 <div>
                   <h4 className="text-white font-medium mb-1">Subscribe to launch notifications</h4>
-                  <p className="text-gray-400">Be the first to know when $POKEAI goes live on Solana</p>
+                  <p className="text-gray-400">Be the first to know when POKIEAI goes live on Solana</p>
                 </div>
               </div>
             </div>

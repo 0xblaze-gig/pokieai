@@ -5,12 +5,12 @@ export default function About() {
     {
       icon: <Zap className="w-8 h-8" />,
       title: "Innovative Technology",
-      description: "$POKEAI leverages cutting-edge AI algorithms to create unique Pokemon-inspired digital assets that evolve over time."
+      description: "POKIEAI leverages cutting-edge AI algorithms to create unique Pokemon-inspired digital assets that evolve over time."
     },
     {
       icon: <Shield className="w-8 h-8" />,
       title: "Secure Framework",
-      description: "Our smart contracts are thoroughly audited, providing a secure and transparent environment for all future $POKEAI holders."
+      description: "Our smart contracts are thoroughly audited, providing a secure and transparent environment for all future POKIEAI holders."
     },
     {
       icon: <Users className="w-8 h-8" />,
@@ -25,12 +25,12 @@ export default function About() {
     {
       icon: <TrendingUp className="w-8 h-8" />,
       title: "Growth Potential",
-      description: "With our expanding ecosystem and strategic partnerships, $POKEAI is positioned for substantial long-term growth."
+      description: "With our expanding ecosystem and strategic partnerships, POKIEAI is positioned for substantial long-term growth."
     },
     {
       icon: <Gift className="w-8 h-8" />,
       title: "Community Rewards",
-      description: "$POKEAI rewards its community with exclusive NFTs, staking benefits, and participation in governance decisions."
+      description: "POKIEAI rewards its community with exclusive NFTs, staking benefits, and participation in governance decisions."
     }
   ];
 
@@ -45,10 +45,10 @@ export default function About() {
       
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
-          <h2 className="font-heading font-bold text-4xl md:text-5xl mb-6 bg-gradient-to-r from-primary to-purple-500 bg-clip-text text-transparent">About $POKEAI</h2>
+          <h2 className="font-heading font-bold text-4xl md:text-5xl mb-6 bg-gradient-to-r from-primary to-purple-500 bg-clip-text text-transparent">About POKIEAI</h2>
           <div className="w-24 h-1 bg-gradient-to-r from-primary to-purple-500 mx-auto mb-8"></div>
           <p className="max-w-3xl mx-auto text-gray-300 text-lg">
-            Discover how $POKEAI is transforming the cryptocurrency landscape by merging Pokemon culture with artificial intelligence.
+            Discover how POKIEAI is transforming the cryptocurrency landscape by merging Pokemon culture with artificial intelligence.
           </p>
         </div>
         

@@ -16,7 +16,7 @@ export default function Roadmap() {
     {
       number: 2,
       status: "Coming Soon",
-      statusClass: "bg-primary bg-opacity-20 text-primary",
+      statusClass: "bg-indigo-600 bg-opacity-20 text-indigo-400",
       title: "Token Launch & Ecosystem",
       items: [
         "Token deployment on Solana network",
@@ -45,8 +45,8 @@ export default function Roadmap() {
       statusClass: "bg-blue-600 bg-opacity-20 text-blue-400",
       title: "Metaverse & Gaming",
       items: [
-        "Development of $POKEAI metaverse environment",
-        "Launch of play-to-earn game with $POKEAI rewards",
+        "Development of POKIEAI metaverse environment",
+        "Launch of play-to-earn game with POKIEAI rewards",
         "Strategic partnerships with gaming platforms",
         "Global community expansion initiatives"
       ],
@@ -65,7 +65,7 @@ export default function Roadmap() {
           <h2 className="font-heading font-bold text-4xl md:text-5xl mb-6 bg-gradient-to-r from-primary to-purple-500 bg-clip-text text-transparent">Roadmap</h2>
           <div className="w-24 h-1 bg-gradient-to-r from-primary to-purple-500 mx-auto mb-8"></div>
           <p className="max-w-3xl mx-auto text-gray-300 text-lg">
-            Our strategic plan for $POKEAI development and future growth on the Solana blockchain.
+            Our strategic plan for POKIEAI development and future growth on the Solana blockchain.
           </p>
         </div>
         

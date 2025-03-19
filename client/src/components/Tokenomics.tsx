@@ -8,7 +8,7 @@ export default function Tokenomics() {
 
   const tokenDetails = [
     { label: "Token Name:", value: "POKEAI" },
-    { label: "Token Symbol:", value: "$POKEAI" },
+    { label: "Token Symbol:", value: "POKIEAI" },
     { label: "Total Supply:", value: "1,000,000,000" },
     { label: "Network:", value: "Solana (SPL)" },
     { label: "Taxation:", value: "0% (No Tax)" }
@@ -21,7 +21,7 @@ export default function Tokenomics() {
           <h2 className="font-heading font-bold text-3xl md:text-4xl mb-4">Tokenomics</h2>
           <div className="w-24 h-1 bg-primary mx-auto mb-6"></div>
           <p className="max-w-3xl mx-auto text-gray-600">
-            Understanding the economic structure and distribution of $POKEAI tokens.
+            Understanding the economic structure and distribution of POKIEAI tokens.
           </p>
         </div>
         
@@ -59,7 +59,7 @@ export default function Tokenomics() {
                 
                 {/* Center circle for logo */}
                 <circle cx="50" cy="50" r="15" fill="white" stroke="#ddd" strokeWidth="1" />
-                <text x="50" y="50" textAnchor="middle" dominantBaseline="middle" fontSize="5" fontWeight="bold">$POKEAI</text>
+                <text x="50" y="50" textAnchor="middle" dominantBaseline="middle" fontSize="5" fontWeight="bold">POKIEAI</text>
               </svg>
             </div>
           </div>

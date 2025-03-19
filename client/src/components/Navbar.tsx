@@ -46,7 +46,7 @@ export default function Navbar() {
               <circle cx="16" cy="16" r="3" fill="white" opacity="0.6" />
             </svg>
           </div>
-          <span className="font-heading font-bold text-2xl bg-gradient-to-r from-primary to-purple-500 bg-clip-text text-transparent">$POKEAI</span>
+          <span className="font-heading font-bold text-2xl bg-gradient-to-r from-primary to-purple-500 bg-clip-text text-transparent">POKIEAI</span>
         </div>
         
         {/* Mobile menu button */}
@@ -90,7 +90,7 @@ export default function Navbar() {
           
           <div className="pt-3 mt-1 border-t border-gray-800">
             <a 
-              href="https://x.com/@PokeAionSOL"
+              href="https://x.com/@Pokieai"
               target="_blank"
               rel="noopener noreferrer"
               className="w-full flex items-center justify-center py-2 px-4 bg-gradient-to-r from-primary to-purple-600 text-white rounded-lg space-x-2 font-medium hover:shadow-lg transition-all duration-300"

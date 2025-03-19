@@ -12,10 +12,10 @@ export default function Footer() {
   ];
   
   const resources = [
-    { name: "Whitepaper", href: "#", icon: <FileText size={16} /> },
-    { name: "Documentation", href: "#", icon: <FileCode size={16} /> },
-    { name: "Security", href: "#", icon: <ShieldCheck size={16} /> },
-    { name: "News", href: "#", icon: <Newspaper size={16} /> }
+    { name: "Whitepaper", href: "#about", icon: <FileText size={16} /> },
+    { name: "Documentation", href: "#about", icon: <FileCode size={16} /> },
+    { name: "Security", href: "#about", icon: <ShieldCheck size={16} /> },
+    { name: "News", href: "#tokenomics", icon: <Newspaper size={16} /> }
   ];
 
   return (
@@ -36,7 +36,7 @@ export default function Footer() {
                   <circle cx="16" cy="16" r="3" fill="white" opacity="0.6" />
                 </svg>
               </div>
-              <span className="font-heading font-bold text-2xl bg-gradient-to-r from-primary to-purple-500 bg-clip-text text-transparent">$POKEAI</span>
+              <span className="font-heading font-bold text-2xl bg-gradient-to-r from-primary to-purple-500 bg-clip-text text-transparent">POKIEAI</span>
             </div>
             <p className="text-gray-300 mb-6">
               The revolutionary cryptocurrency merging Pokemon culture with cutting-edge AI technology on the Solana blockchain.
@@ -81,7 +81,7 @@ export default function Footer() {
           
           <div>
             <h3 className="font-heading font-bold text-lg mb-6 text-white">Stay Updated</h3>
-            <p className="text-gray-300 mb-4">Get notified when $POKEAI launches on Solana.</p>
+            <p className="text-gray-300 mb-4">Get notified when POKIEAI launches on Solana.</p>
             <form className="space-y-3">
               <div className="relative">
                 <input 
@@ -105,9 +105,9 @@ export default function Footer() {
         </div>
         
         <div className="border-t border-gray-800 mt-12 pt-8 text-center">
-          <p className="text-gray-400">&copy; {currentYear} $POKEAI. All rights reserved.</p>
+          <p className="text-gray-400">&copy; {currentYear} POKIEAI. All rights reserved.</p>
           <p className="mt-2 text-xs text-gray-500">
-            $POKEAI is not affiliated with The Pokémon Company or Nintendo. This is a fan-made cryptocurrency project.
+            POKIEAI is not affiliated with The Pokémon Company or Nintendo. This is a fan-made cryptocurrency project.
           </p>
         </div>
       </div>

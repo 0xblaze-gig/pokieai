@@ -13,12 +13,12 @@ export default function Album() {
     },
     {
       title: "Charizard's Token Burn",
-      description: "When Charizard burns tokens, the $POKEAI market cap reaches new heights. Deflationary mechanics at their fiercest!",
+      description: "When Charizard burns tokens, the POKIEAI market cap reaches new heights. Deflationary mechanics at their fiercest!",
       image: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png"
     },
     {
       title: "Bulbasaur's Yield Farm",
-      description: "Staking $POKEAI tokens is like planting Bulbasaur's seeds - watch your investments grow organically with amazing APY.",
+      description: "Staking POKIEAI tokens is like planting Bulbasaur's seeds - watch your investments grow organically with amazing APY.",
       image: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png"
     },
     {
@@ -28,22 +28,22 @@ export default function Album() {
     },
     {
       title: "Snorlax HODLing",
-      description: "Snorlax knows the secret to crypto success: HODL through market volatility and wake up when $POKEAI reaches the moon!",
+      description: "Snorlax knows the secret to crypto success: HODL through market volatility and wake up when POKIEAI reaches the moon!",
       image: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/143.png"
     },
     {
       title: "Eevee's Multi-Chain Evolution",
-      description: "Like Eevee's many evolutions, $POKEAI is developing cross-chain functionality to evolve across the entire crypto ecosystem.",
+      description: "Like Eevee's many evolutions, POKIEAI is developing cross-chain functionality to evolve across the entire crypto ecosystem.",
       image: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/133.png"
     },
     {
       title: "Gengar's NFT Collection",
-      description: "Rare $POKEAI NFTs featuring Gengar's shadow art are selling out faster than you can say 'Gas fees on Solana are minimal!'",
+      description: "Rare POKIEAI NFTs featuring Gengar's shadow art are selling out faster than you can say 'Gas fees on Solana are minimal!'",
       image: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/094.png"
     },
     {
       title: "Jigglypuff's Community Call",
-      description: "Join our weekly $POKEAI community calls! Unlike Jigglypuff's song, we promise to keep you wide awake with exciting updates.",
+      description: "Join our weekly POKIEAI community calls! Unlike Jigglypuff's song, we promise to keep you wide awake with exciting updates.",
       image: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/039.png"
     }
   ];
@@ -66,7 +66,7 @@ export default function Album() {
           <h2 className="font-heading font-bold text-3xl md:text-4xl mb-4 bg-gradient-to-r from-primary to-violet-500 bg-clip-text text-transparent">Crypto Pokémon Collection</h2>
           <div className="w-24 h-1 bg-primary mx-auto mb-6"></div>
           <p className="max-w-3xl mx-auto text-gray-600">
-            Where Pokémon meets blockchain! These legendary creatures are leading the $POKEAI revolution on Solana with lightning-fast transactions and zero fees.
+            Where Pokémon meets blockchain! These legendary creatures are leading the POKIEAI revolution on Solana with lightning-fast transactions and zero fees.
           </p>
         </div>
         

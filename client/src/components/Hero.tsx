@@ -14,16 +14,16 @@ export default function Hero() {
               The Future of <span className="bg-gradient-to-r from-primary to-purple-500 bg-clip-text text-transparent">Pokemon</span> & <span className="bg-gradient-to-r from-purple-500 to-primary bg-clip-text text-transparent">AI</span> Crypto
             </h1>
             <p className="text-lg mb-8 text-gray-300 max-w-lg">
-              $POKEAI combines the beloved world of Pokemon with cutting-edge AI technology to create a revolutionary cryptocurrency experience on Solana.
+              POKIEAI combines the beloved world of Pokemon with cutting-edge AI technology to create a revolutionary cryptocurrency experience on Solana.
             </p>
             <div className="flex flex-wrap gap-4">
               <div className="bg-gray-800 p-6 rounded-lg shadow-lg border border-gray-700 backdrop-filter backdrop-blur-sm bg-opacity-80">
                 <h3 className="font-heading font-bold text-lg mb-2 bg-gradient-to-r from-primary to-purple-500 bg-clip-text text-transparent">Coming Soon on Solana!</h3>
                 <p className="text-gray-300 mb-4">
-                  Join us for the $POKEAI launch:
+                  Join us for the POKIEAI launch:
                 </p>
                 <ol className="list-decimal pl-5 space-y-2 text-gray-300">
-                  <li>Set up your <a href="https://phantom.app/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Phantom wallet</a></li>
+                  <li>Set up your <a  rel="noopener noreferrer" className="text-primary hover:underline">Phantom wallet</a></li>
                   <li>Fund your wallet with $SOL</li>
                   <li>Connect to our platform at launch</li>
                 </ol>
@@ -58,7 +58,7 @@ export default function Hero() {
                 <circle cx="50" cy="50" r="18" fill="none" stroke="#FF5A5F" strokeWidth="1" />
                 <circle cx="50" cy="50" r="10" fill="#FF5A5F" />
                 <circle cx="50" cy="50" r="4" fill="#fff" opacity="0.8" />
-                <text x="50" y="95" textAnchor="middle" fill="#fff" fontSize="10" fontWeight="bold" filter="url(#glow)">$POKEAI</text>
+                <text x="50" y="95" textAnchor="middle" fill="#fff" fontSize="10" fontWeight="bold" filter="url(#glow)">POKIEAI</text>
               </svg>
               <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-tr from-primary to-purple-600 opacity-10 mix-blend-overlay"></div>
             </div>
