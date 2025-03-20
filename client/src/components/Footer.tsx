@@ -42,9 +42,9 @@ export default function Footer() {
               The revolutionary cryptocurrency merging Pokemon culture with cutting-edge AI technology on the Solana blockchain.
             </p>
             <div className="flex">
-              <a href="https://x.com/@PokeAionSOL" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-primary transition-all duration-300 transform hover:scale-110 flex items-center gap-2 px-4 py-2 bg-gray-800 rounded-full border border-gray-700">
+              <a href="https://x.com/@PokieAi" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-primary transition-all duration-300 transform hover:scale-110 flex items-center gap-2 px-4 py-2 bg-gray-800 rounded-full border border-gray-700">
                 <Twitter size={18} strokeWidth={1.5} />
-                <span>@PokeAionSOL</span>
+                <span>@PokieAi</span>
               </a>
             </div>
           </div>

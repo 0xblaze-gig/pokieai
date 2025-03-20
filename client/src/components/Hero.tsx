@@ -30,7 +30,7 @@ export default function Hero() {
               </div>
             </div>
             <div className="flex items-center mt-8">
-              <a href="https://x.com/@PokeAionSOL" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-primary transition-colors duration-300 transform hover:scale-110 flex items-center gap-2 px-4 py-2 bg-gray-800 rounded-full border border-gray-700">
+              <a href="https://x.com/@PokieAi" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-primary transition-colors duration-300 transform hover:scale-110 flex items-center gap-2 px-4 py-2 bg-gray-800 rounded-full border border-gray-700">
                 <Twitter strokeWidth={1.5} className="w-5 h-5" />
                 <span>Follow on X</span>
               </a>

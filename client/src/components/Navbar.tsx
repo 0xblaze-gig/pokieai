@@ -134,7 +134,7 @@ function MobileNavLink({ href, icon, label, onClick }: { href: string; icon: Rea
 function TwitterLink() {
   return (
     <a 
-      href="https://x.com/@PokeAionSOL"
+      href="https://x.com/@PokieAi"
       target="_blank"
       rel="noopener noreferrer"
       className="relative group overflow-hidden py-2 px-4 bg-gray-800 hover:bg-gray-700 border border-gray-700 text-white rounded-lg flex items-center space-x-2 transition-all duration-300"
