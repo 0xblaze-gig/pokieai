@@ -7,7 +7,7 @@ export default function Tokenomics() {
   ];
 
   const tokenDetails = [
-    { label: "Token Name:", value: "POKEAI" },
+    { label: "Token Name:", value: "PokieAi" },
     { label: "Token Symbol:", value: "POKIEAI" },
     { label: "Total Supply:", value: "1,000,000,000" },
     { label: "Network:", value: "Solana (SPL)" },
