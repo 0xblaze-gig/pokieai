@@ -41,6 +41,7 @@ var vite_config_default = defineConfig({
       "@shared": path.resolve(__dirname, "shared")
     }
   },
+  base: "/pokieai/",
   root: path.resolve(__dirname, "client"),
   build: {
     outDir: path.resolve(__dirname, "dist/public"),
